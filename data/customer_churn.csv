@@ -1,0 +1,13 @@
+CustomerID,Tenure,MonthlyCharges,TotalCharges,Contract,InternetService,Churn
+C001,12,50.45,605.40,Month-to-month,DSL,No
+C002,34,89.90,3056.60,One year,Fiber optic,Yes
+C003,2,20.15,40.30,Month-to-month,No,No
+C004,45,110.00,4950.00,Two year,Fiber optic,No
+C005,8,45.20,361.60,Month-to-month,DSL,Yes
+C006,23,65.00,1495.00,One year,DSL,No
+C007,10,95.50,955.00,Month-to-month,Fiber optic,Yes
+C008,60,115.30,6918.00,Two year,Fiber optic,No
+C009,1,19.90,19.90,Month-to-month,No,Yes
+C010,15,40.00,600.00,One year,DSL,No
+C011,5,75.00,375.00,Month-to-month,Fiber optic,Yes
+C012,72,118.00,8496.00,Two year,Fiber optic,No
