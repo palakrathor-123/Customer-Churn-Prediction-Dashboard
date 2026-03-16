@@ -64,5 +64,11 @@ pip install -r requirements.txt
 streamlit run dashboard/app.py
 
 ```
+## Output
+### 1. Interactive Dashboard
+### 2.   Model Performance
+### 3. Customer Risk Segmentation
+### 4. Visual Analysis
+```
 
 
