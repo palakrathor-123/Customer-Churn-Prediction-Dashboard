@@ -41,14 +41,21 @@ The project uses the customer_churn.csv dataset, which contains the following cu
 
 ---
 
-## 🔗 Project Structure
+
+## 📂 Project Structure
 
 ```text
-customer_churn_project |── data |
-customer_data.csv      |── notebooks |
-analysis.ipynb         |── src | data_preprocessing.py |
-churn_model.py         |── dashboard |
-app.py                 |── requirements.txt
+customer_churn_project
+├── data/
+│   └── customer_data.csv
+├── notebooks/
+│   └── analysis.ipynb
+├── src/
+│   └── data_preprocessing.py
+├── dashboard/
+│   └── app.py
+└── requirements.txt
+```
 
 ## How to Run the Project
 ### Install Dependencies
@@ -56,29 +63,6 @@ pip install -r requirements.txt
 ### Run Streamlit Dashboard
 streamlit run dashboard/app.py
 
-## Output
-### 1. Interactive Dashboard
-* *Real-time Prediction:* Users can input customer attributes (Tenure, Charges, Contract) to get instant churn risk and revenue forecasts.
-* *Data Exploration:* A dynamic table view to inspect the sample dataset directly from the dashboard.
+```
 
-### 2. Model Performance
-After training and evaluating the models, the following results were achieved:
-* *Churn Prediction (Classification):* High accuracy in identifying customers at risk of leaving.
-* *Revenue Forecasting (Regression):* Predicted TotalCharges with minimal error, helping in financial planning.
 
-### 3. Customer Risk Segmentation
-The dashboard classifies customers into three risk categories based on probability:
-* *Low Risk:* Customers with a high probability of staying.
-* *Medium Risk:* Customers who might need engagement or discounts.
-* *High Risk:* Customers likely to churn soon, requiring immediate attention.
-
-### 4. Visual Analysis
-The project includes several visualizations (in the Jupyter Notebook and Dashboard):
-* *Churn vs. Tenure:* Shows how loyalty increases over time.
-* *Revenue Trends:* Visual representation of expected vs. actual revenue.
-
-## Dashboard Preview
-Screenshot 2026-03-15 210501
-
-## Author
-### Palak Rathore
