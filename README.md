@@ -71,6 +71,7 @@ streamlit run dashboard/app.py
 ### 4. Visual Analysis
 ```
 ## Dashboard Preview
+<img width="1356" height="484" alt="Image" src="https://github.com/user-attachments/assets/797577db-2f9f-4865-88dc-50593859187e" />
 
 ## Author 
 ### Palak Rathore 
